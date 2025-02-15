@@ -1,0 +1,30 @@
+{
+  "name": "sparkling-dew-fc9e",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sparkling-dew-fc9e-d1",
+      "database_id": "c3b6a29b-bc16-4cd8-bacb-d3db982d8604"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "sparkling-dew-fc9e-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
